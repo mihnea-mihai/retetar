@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss"
+	],
+	"sourcesContent": [
+		"header {\n    text-align: center;\n    padding: 25px;\n}\n\n#site_title {\n    font-size:xx-large;\n    color: red;\n}\n\n#site_description {\n    color: green;\n    font-size: large;\n}\n\nhtml {\n    color: white;\n    background-color: black;\n    max-width: 600px;\n    margin: auto;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,CAAC,EACH,UAAU,EAAE,MAAM,EAClB,OAAO,EAAE,IAAI,GAChB;;AAED,AAAA,WAAW,CAAC,EACR,SAAS,EAAC,QAAQ,EAClB,KAAK,EAAE,GAAG,GACb;;AAED,AAAA,iBAAiB,CAAC,EACd,KAAK,EAAE,KAAK,EACZ,SAAS,EAAE,KAAK,GACnB;;AAED,AAAA,IAAI,CAAC,EACD,KAAK,EAAE,KAAK,EACZ,gBAAgB,EAAE,KAAK,EACvB,SAAS,EAAE,KAAK,EAChB,MAAM,EAAE,IAAI,GACf"
+}
