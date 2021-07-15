@@ -1,7 +1,23 @@
 ---
 ---
+header {
+    text-align: center;
+    padding: 25px;
+}
+
+#site_title {
+    font-size:xx-large;
+    color: red;
+}
+
+#site_description {
+    color: green;
+    font-size: large;
+}
 
 html {
     color: white;
     background-color: black;
+    max-width: 600px;
+    margin: auto;
 }
