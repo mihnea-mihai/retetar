@@ -25,7 +25,7 @@ layout: default
 <h1>Ingrediente</h1>
 
 {% for ingredient in page.ingredients %}
-    <input type="checkbox"><span class="mutable qty">{{ ingredient.qty }}</span> {{ ingredient.unit }} {{ ingredient.name }}
+    <span class="ingredient"><input type="checkbox"><span class="mutable qty">{{ ingredient.qty }}</span> {{ ingredient.unit }} {{ ingredient.name }}</span>
     <br>
 {% endfor %}
 
