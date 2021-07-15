@@ -1,0 +1,35 @@
+---
+# title: Titlul rețetei
+# source: site placeholder
+# type: Prânz
+# ingredients:
+#   - {name: făină, qty: 500, unit: g}
+#   - {name: zahăr, qty: 50, unit: g}
+# servings: 4
+
+layout: default
+---
+<link rel="stylesheet" href="assets/css/recipe.css">
+<script src="assets/js/slider.js" defer="defer"></script>
+
+<div id="page_title">{{ page.title }}</div>
+
+<h3><a href="{{ page.source }}">Sursă</a></h3>
+<h3>
+    Porții: 
+    <span id="servings_number">{{ page.servings }}</span>
+    <input id="servings_slider" 
+        type="range" max="8" min="2" step="2"
+        value="{{ page.servings }}">
+</h3>
+<h1>Ingrediente</h1>
+
+{% for ingredient in page.ingredients %}
+    <input type="checkbox"><span class="mutable qty">{{ ingredient.qty }}</span> {{ ingredient.unit }} {{ ingredient.name }}
+    <br>
+{% endfor %}
+
+
+<h1>Pregătire</h1>
+{{ content }}
+
