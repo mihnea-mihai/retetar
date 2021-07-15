@@ -1,0 +1,21 @@
+---
+---
+
+header {
+    padding: 25px;
+    background-color:darken($color: green, $amount: 20);
+}
+
+#site_title {
+    text-align: center;
+    font-size:xx-large;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+#site_description {
+    color: whitesmoke;
+    font-size: large;
+    padding: 5px;
+    text-align: center;
+}

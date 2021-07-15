@@ -1,24 +1,22 @@
 ---
 ---
 
-header {
-    text-align: center;
-    padding: 25px;
-}
-
-#site_title {
-    font-size:xx-large;
-    color: red;
-}
-
-#site_description {
-    color: green;
-    font-size: large;
-}
-
 html {
-    color: white;
-    background-color: black;
+    color: whitesmoke;
+    background-color: darken($color: blue, $amount: 45);
+    font-family:sans-serif;
+    text-align: justify;
+}
+
+main, footer {
     max-width: 600px;
     margin: auto;
 }
+
+footer {font-size: small;}
+
+body {margin: 0px;}
+
+a {color: cyan;}
+
+h1 {color: yellowgreen;}

@@ -1,6 +1,13 @@
 title: Rețetar
 description: Rețete fără aditivi pentru oameni organizați 
-url: 
+
+github:
+  repository:
+    name: retetar
+    url: https://github.com/mihnea-mihai/retetar
+  user:
+    name: mihnea-mihai
+    url: https://github.com/mihnea-mihai/
 
 defaults:
   - scope:
