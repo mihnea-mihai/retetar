@@ -2,22 +2,20 @@
 ---
 
 header {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 1%;
-    padding-left: 1%;
-    background-color:darken($color: green, $amount: 20);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    background-color:darken($color: red, $amount: 40);
     text-align: center;
 }
 
-#site_title {
-    font-size: 4vw;
-    color: whitesmoke;
-    padding-top: 1%;
+#site_title, #site_description {
+    padding-top: 1vh;
+    padding-bottom: 2vh;
 }
 
-#site_description {
-    color: whitesmoke;
-    font-size: 2vw;
-    padding-top: 1%px;
-}
+#site_title{font-size: 2.5em;}
+
+#site_description {font-size: 1.25em;}
+

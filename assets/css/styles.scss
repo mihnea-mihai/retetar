@@ -10,7 +10,10 @@ html {
 
 main, nav, footer {
     max-width: 980px;
-    padding: 1%;
+    padding-right: 1vw; 
+    padding-left: 1vw;
+    padding-top: 1vh; 
+    padding-bottom: 1vh;
     margin: auto;
 }
 
@@ -18,4 +21,7 @@ body {margin: 0px;}
 
 a {color: cyan;}
 
-h1 {color: yellowgreen;}
+h1 {
+    color: yellowgreen;
+    font-size: 1.75em;
+}

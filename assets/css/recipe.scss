@@ -3,22 +3,20 @@
 
 #page_title {
     text-align: center;
-    font-size: larger;
+    font-size: 1.5em;
     font-weight: bold;
-    padding-top: 3%;
-    color: darkolivegreen;
-    padding-right: 1%;
-    padding-left: 1%;
+    padding-top: 3vh;
+    color: yellowgreen;
+    padding-right: 1vw;
+    padding-left: 1vw;
 }
 
-input#servings_slider {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 50%;
-    height: 30%;
-    padding: 2%;
+.slider { width: 50%;
 }
 
-span.ingredient {
-    font-size: 2vw;
+.ingredient {
+    padding-top: 0.25m;
+    padding-bottom: 0.25em;
 }
+
+.ingredients { padding-left: 2% }
