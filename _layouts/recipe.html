@@ -22,14 +22,15 @@ layout: default
     <a href="{{ page.source }}">Sursă</a>
 </h3>
 
-<h3>
+<div class="servings">
     Porții: 
     <span id="servings_number">{{ page.servings }}</span>
-    <br>
-    <input id="servings_slider" class="slider"
-        type="range" max="8" min="1" step="1"
-        value="{{ page.servings }}">
-</h3>
+</div>
+
+<input id="servings_slider" class="slider"
+    type="range" max="8" min="1" step="1"
+    value="{{ page.servings }}">
+
 
 <h1>
     Ingrediente
