@@ -13,6 +13,6 @@ slider.oninput = function() {
     number.innerHTML = this.value;
     
     for (let i = 0; i < qtys.length; i++) {
-        qtys[i].innerHTML = parseFloat((qtys_per_serving[i] * number.innerHTML).toFixed(2));
+        qtys[i].innerHTML = parseFloat((qtys_per_serving[i] * number.innerHTML).toFixed(1));
     }
 }

@@ -6,16 +6,21 @@ header {
     padding-bottom: 1vh;
     padding-right: 1vw;
     padding-left: 1vw;
-    background-color:darken($color: red, $amount: 40);
+    //background-color:darken($color: red, $amount: 40);
+    background-color:black;
     text-align: center;
+    color: red;
 }
 
-#site_title, #site_description {
+.site_title, .site_description {
     padding-top: 1vh;
     padding-bottom: 2vh;
 }
 
-#site_title{font-size: 2.5em;}
+.site_title {
+    font-size: 2.5em;
+    font-weight: bold;
+}
 
-#site_description {font-size: 1.25em;}
+.site_description {font-size: 1.25em;}
 

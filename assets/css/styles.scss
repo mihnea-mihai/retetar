@@ -3,23 +3,23 @@
 
 html {
     color: whitesmoke;
-    background-color: darken($color: blue, $amount: 45);
-    font-family:sans-serif;
+    background-color: lighten($color: black, $amount: 5);
+    font-family:'Trebuchet MS';
     text-align: justify;
 }
 
 main, nav, footer {
     max-width: 980px;
-    padding-right: 1vw; 
-    padding-left: 1vw;
-    padding-top: 1vh; 
-    padding-bottom: 1vh;
+    padding-right: 2vw; 
+    padding-left: 2vw;
+    padding-top: 2vh; 
+    padding-bottom: 2vh;
     margin: auto;
 }
 
 body {margin: 0px;}
 
-a {color: cyan;}
+a {color: red}
 
 h1 {
     color: yellowgreen;
