@@ -3,23 +3,24 @@
 
 #page_title {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
-    padding-top: 3vh;
-    color: yellowgreen;
-    padding-right: 1vw;
-    padding-left: 1vw;
+    padding: 3vh 1vw 1vw;
+    color: green;
 }
 
 .slider {
-    width: 50%;
+    width: 75%;
 }
 
 .ingredient {
-    padding-top: 0.25m;
-    padding-bottom: 0.25em;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
-.ingredients { padding-left: 2% }
+.ingredients { padding-left: 1% }
 
-.servings {font-size: 1.5em;}
+.servings {
+    font-size: 1.5rem;
+    width: 25%;
+}
