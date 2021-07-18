@@ -4,7 +4,7 @@
 html {
     color: whitesmoke;
     background-color: lighten($color: black, $amount: 5);
-    font-family:'Trebuchet MS';
+    font-family:sans-serif;
     text-align: justify;
 }
 
@@ -12,9 +12,9 @@ main, nav, footer {
     max-width: 980px;
     padding-right: 2vw; 
     padding-left: 2vw;
-    padding-top: 2vh; 
-    padding-bottom: 2vh;
-    margin: auto;
+    padding-top: 1vh; 
+    padding-bottom: 1vh;
+    margin: 0px, auto;
 }
 
 body {margin: 0px;}
