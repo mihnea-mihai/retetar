@@ -1,6 +1,6 @@
 ---
 title: Tocană libaneză cu fasole și năut
-category: Prânz
+meal_type: Prânz
 ingredients:
     - {name: ceapă, qty: 2, unit: buc.}
     - {name: usturoi, qty: 7, unit: căței}

@@ -12,6 +12,8 @@ github:
 collections:
   retete:
     output: true
+  mese:
+    output: true
 
 defaults:
   - scope:
@@ -23,3 +25,8 @@ defaults:
       type: retete
     values:
       layout: "recipe"
+  - scope:
+      path: ""
+      type: mese
+    values:
+      layout: "meal"

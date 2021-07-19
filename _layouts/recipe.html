@@ -6,7 +6,6 @@
 #   - {name: făină, qty: 500, unit: g}
 #   - {name: zahăr, qty: 50, unit: g}
 # servings: 4
-
 layout: default
 ---
 
@@ -18,10 +17,15 @@ layout: default
     {{ page.title }}
 </div>
 
-<h3>
+<h1>
     <a href="{{ page.source }}">Sursă</a>
-</h3>
+</h1>
 
+<h1 class="category">
+    {% assign meal_page = site.mese | where: name, page.meal_type | first %}
+    Categorie: <a href="{{ meal_page.url }}"> {{ page.meal_type }}</a>
+</h1>
+<br>
 <span class="servings">
     Porții: 
     <span id="servings_number">{{ page.servings }}</span>

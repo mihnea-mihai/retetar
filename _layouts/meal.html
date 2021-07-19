@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="meal_title">
+    {{ page.name }}
+</div>
+
+{{ content }}
+
+<h1>Rețete</h1>
+
+{% for recipe in site.retete %}
+    {% if recipe.meal_type == page.name %}
+        <a href="{{ recipe.url }}"> {{ recipe.title }}</a>
+        <br>
+    {% endif %}
+{% endfor %}
