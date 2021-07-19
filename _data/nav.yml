@@ -1,4 +1,4 @@
 - name: Rețete
-  url: placeholder retete
+  url: /retete
 - name: Ingrediente
-  url: placeholder ingrediente
+  url: /ingrediente

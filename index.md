@@ -5,7 +5,3 @@
 Fără reclame, fără SEO, doar ingrediente și instrucțiuni.
 
 Și multă organizare!
-
-[Rețetă variabilă](reteta)
-
-[Listă](lista)

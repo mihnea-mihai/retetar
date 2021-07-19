@@ -1,7 +1,6 @@
 ---
-title: Titlul rețetei cu multe cuvinte neinteligibile
-source: site placeholder
-type: Prânz
+title: Tocană libaneză cu fasole și năut
+category: Prânz
 ingredients:
     - {name: ceapă, qty: 2, unit: buc.}
     - {name: usturoi, qty: 7, unit: căței}
@@ -14,7 +13,7 @@ ingredients:
     - {name: ulei de măsline, qty: 3, unit: lg}
     - {name: chimen, qty: 1, unit: lgț}
 servings: 6
-layout: recipe
+source: https://www.connoisseurusveg.com/lebanese-green-bean-stew-with-chickpeas-almonds/
 ---
 
 Într-o tigaie se încinge niște ulei la foc mediu.
