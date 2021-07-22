@@ -1,6 +1,7 @@
 ---
 title: Tocană libaneză cu fasole și năut
-meal_type: Prânz
+meal_type: prânz
+servings: 6
 ingredients:
     - {name: ceapă, qty: 2, unit: buc.}
     - {name: usturoi, qty: 7, unit: căței}
@@ -12,7 +13,6 @@ ingredients:
     - {name: supă de pui, qty: 500, unit: ml}
     - {name: ulei de măsline, qty: 3, unit: lg}
     - {name: chimen, qty: 1, unit: lgț}
-servings: 6
 source: https://www.connoisseurusveg.com/lebanese-green-bean-stew-with-chickpeas-almonds/
 ---
 

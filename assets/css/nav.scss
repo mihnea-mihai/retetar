@@ -3,8 +3,12 @@
 nav {    
     padding-top: 2vh;
     padding-bottom: 2vh;
-    background-color: lighten($color: black, $amount: 10);
+    background-color: lighten($color: black, $amount: 5);
     font-size: 1.25rem;
+    font-weight: bold;
+    a {
+        color: blue;
+    }
 }
 
 .nav_item {

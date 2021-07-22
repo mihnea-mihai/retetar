@@ -3,16 +3,16 @@
 
 header {
     padding: 1vh 1vw;
-    background-color:black;
+    background-color:lighten($color: black, $amount: 10);
     text-align: center;
-    color: cyan;
+    color: darken($color: cyan, $amount: 10);
 }
 
 .site_title, .site_description {
     padding: 1vh 0 2vh;
     a {
         text-decoration: none;
-        color: cyan;
+        color: darken($color: cyan, $amount: 10);
     }
 }
 

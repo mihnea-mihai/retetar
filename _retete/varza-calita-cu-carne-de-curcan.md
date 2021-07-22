@@ -1,6 +1,6 @@
 ---
 title: Varză călită cu carne de curcan
-meal_type: Prânz
+meal_type: prânz
 servings: 4
 ingredients:
     - {name: ceapă, qty: 2, unit: buc.}

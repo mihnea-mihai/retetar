@@ -3,7 +3,7 @@
 
 html {
     color: whitesmoke;
-    background-color: lighten($color: black, $amount: 5);
+    background-color: darken($color: blue, $amount: 40);
     font-family:sans-serif;
     text-align: justify;
 }
@@ -16,9 +16,9 @@ main, nav, footer {
 
 body {margin: 0px;}
 
-a {color: red}
+a {color: yellowgreen}
 
 h1 {
-    color: yellowgreen;
+    color: cyan;
     font-size: 1.75rem;
 }

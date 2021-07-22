@@ -1,5 +1,5 @@
 ---
-name: Prânz
+name: prânz
 ---
 
 Prânzul este important.

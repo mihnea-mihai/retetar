@@ -2,7 +2,3 @@
   url: /retete
 - name: Ingrediente
   url: /ingrediente
-- name: Mese
-  url: /mese
-- name: Măsuri
-  url: /masuri

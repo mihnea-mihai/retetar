@@ -6,7 +6,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     padding: 3vh 1vw 1vw;
-    color: green;
+    color: lighten($color: green, $amount: 10);
 }
 
 .slider {
